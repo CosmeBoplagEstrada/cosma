@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Projects | Micos Estrada</title>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo">
+            <img src="logo.png" alt="Logo">
+        </div>
+        <div class="nav-container">
+            <div class="links">
+                <a href="index.html">Home</a> <!-- Link back to the home page -->
+                <a href="skills.html">Skills</a>
+                <a href="about.html">About</a>
+                <a href="projects.html">Projects</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+        <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        <div class="dropdown">
+            <div class="links">
+                <a href="index.html">Home</a> <!-- Link back to the home page -->
+                <a href="skills.html">Skills</a>
+                <a href="about.html">About</a>
+                <a href="projects.html">Projects</a>
+                <a href="contact.html">Contact</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>    
+        </div>
+    </nav>
+
+    <!-- Projects Section -->
+    <section class="projects">
+        <div class="container">
+            <h1 class="section-title">My Projects</h1>
+            <p class="section-description">
+                Here are some of the projects I've worked on during my journey as a Computer Science student. These projects showcase my skills in various fields, including web development, app development, and more.
+            </p>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <img src="project1.jpg" alt="Project 1">
+                    <div class="project-info">
+                        <h3>Project Title 1</h3>
+                        <p>A brief description of the project goes here. It showcases the technologies used and the goals achieved.</p>
+                        <a href="https://github.com/your-repo" target="_blank" class="project-link">View on GitHub</a>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <img src="lilpump.jpg" alt="Project 2">
+                    <div class="project-info">
+                        <h3>Tribute Page to Lil Pump</h3>
+                        <p>Without Lil Pump theres no Gucci Gang.</p>
+                        <a href="https://cosmeboplagestrada.github.io/cosmee/" target="_blank" class="project-link">View on GitHub</a>
+                    </div>
+                </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Micos Estrada | All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
